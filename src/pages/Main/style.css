@@ -1,0 +1,32 @@
+body {
+    background: rgba(73, 164, 238, 0.795);
+}
+
+#btnRegister {
+    margin-top: 20px;
+}
+
+#top-list {
+    cursor: default;
+}
+
+#link-user:hover {
+    background: rgba(3, 132, 238, 0.795);
+    color: white;
+    transition: all 0.6s;
+}
+
+.page-link {
+    margin-top: 15px;
+}
+
+.page-link:hover{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.page-link:disabled {
+    align-items: center;
+    background: #ccc;
+    color: rgb(95, 95, 95);
+}
